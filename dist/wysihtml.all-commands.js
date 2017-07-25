@@ -612,7 +612,7 @@ wysihtml.commands.superscript = (function() {
 })();
 
 wysihtml.commands.insertTDPinlineBlue = (function() {
-  var REG_EXP = /inline-blue-sans-h]+/g;
+  var REG_EXP = /inline-blue-sans-h/g;
 
   return {
     exec: function(composer, command, size) {
@@ -626,7 +626,7 @@ wysihtml.commands.insertTDPinlineBlue = (function() {
 })();
 
 wysihtml.commands.insertTDPinlineBlack = (function() {
-  var REG_EXP = /inline-black-sans-h]+/g;
+  var REG_EXP = /inline-black-sans-h/g;
 
   return {
     exec: function(composer, command, size) {
